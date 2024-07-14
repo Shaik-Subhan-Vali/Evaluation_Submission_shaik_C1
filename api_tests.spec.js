@@ -28,7 +28,8 @@ describe('JSON place holder API testing', () => {
                 "userId": 1
             }
         }).then((Response)=>{
-            expect(Response.status).to.equal(200);
+            expect(Response.status).to.equal(201);
           
         }) 
+});
 });
